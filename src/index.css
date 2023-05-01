@@ -5,5 +5,26 @@
 
 * {
   scroll-behavior: smooth;
+  font-family: 'akzidenzRegular';
 }
 
+
+@font-face {
+  font-family: 'akzidenzRegular';
+  src: url('../public/assets/Fonts/AkzidenzGroteskPro-Regular.otf');
+
+  font-family: 'akzidenzExt';
+  src: url('../public/assets/Fonts/AkzidenzGroteskPro-Ext.otf');
+
+  font-family: 'akzidenzMd';
+  src: url('../public/assets/Fonts/AkzidenzGroteskPro-Md.otf');
+
+  font-family: 'akzidenzMdExt';
+  src: url('../public/assets/Fonts/AkzidenzGroteskPro-MdEx.otf');
+
+  font-family: 'akzidenzBoldEx';
+  src: url('../public/assets/Fonts/AkzidenzGroteskPro-BoldEx.otf');
+
+  font-family: 'akzidenzBold';
+  src: url('../public/assets/Fonts/AkzidenzGroteskPro-Bold.ttf');
+}
