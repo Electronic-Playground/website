@@ -8,12 +8,12 @@ export default {
             'bg-main-color':'#1B1B1B',
           },
           fontFamily: {
-            'akzidenzRegular': ['AkzidenzGroteskPro-Regular', 'sans-serif'],
-            'akzidenzExt': ['AkzidenzGroteskPro-Ext', 'sans-serif'],
-            'akzidenzMd': ['AkzidenzGroteskPro-Md', 'sans-serif'],
-            'akzidenzMdExt': ['AkzidenzGroteskPro-MdEx', 'sans-serif'],
-            'akzidenzBoldEx': ['AkzidenzGroteskPro-BoldEx', 'sans-serif'],
-            'akzidenz-bold': ['AkzidenzGroteskPro-Bold', 'sans-serif'],
+            'akzidenz': ['AkzidenzGroteskPro-Regular', 'sans-serif'],
+            'akzidenz-Ext': ["'AkzidenzGroteskPro Ext'", 'sans-serif'],
+            'akzidenz-Md': ["'AkzidenzGroteskPro Md'", 'sans-serif'],
+            'akzidenz-MdExt': ["'AkzidenzGroteskPro MdEx'", 'sans-serif'],
+            'akzidenz-BoldEx': ["'AkzidenzGroteskPro BoldEx'", 'sans-serif'],
+            'akzidenz-Bold': ["'AkzidenzGroteskPro Bold'", 'sans-serif'],
           }
         },
         screens: {

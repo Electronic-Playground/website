@@ -1,8 +1,8 @@
 import React from 'react'
 
-const mission = () => (
+const Mission = () => (
     <div>mission</div>
   )
 
 
-export default mission
+export default Mission
