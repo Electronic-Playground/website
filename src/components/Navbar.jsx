@@ -2,10 +2,10 @@ import React from "react";
 import { navLinks } from "../constants";
 
 const Navbar = () => (
-    <nav className="flex flex-col md:flex-row justify-between bg-bg-main-color px-2 md:px-16 pt-2 md:pt-4">
+    <nav className="relative flex flex-col md:flex-row justify-between bg-bg-main-color px-2 md:px-16 pt-2 md:pt-4">
         <div>
             <img
-                src="../public/assets/Logos/EP-Logo-March-2023-03.png"
+                src="../assets/Logos/EP-Logo-March-2023-03.png"
                 alt="EP Navbar Logo"
                 className="h-auto w-[120px]"
             />
@@ -16,7 +16,7 @@ const Navbar = () => (
                 {navLinks.map((link, index) => (
                     <li
                         key={link.id}
-                        className={`cursor-pointer text-white hover:text-primary transition-all ${index === navLinks.length - 1 ? 'mr-0' : 'mr-9' } mt-2 md:mt-0`}
+                        className={`cursor-pointer tracking-wider text-white hover:text-primary transition-all ${index === navLinks.length - 1 ? 'mr-0' : 'mr-9' } mt-2 md:mt-0`}
                     >
                         <a href={`#${link.id}`}>{link.title}</a>
                     

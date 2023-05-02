@@ -7,6 +7,9 @@ export default {
             'primary': '#F8B700',
             'bg-main-color':'#1B1B1B',
           },
+          backgroundImage: {
+            'home-pattern': "url('../../assets/Fillers/bg-home-1440x591.svg')",
+          },
           fontFamily: {
             'akzidenz': ['AkzidenzGroteskPro-Regular', 'sans-serif'],
             'akzidenz-Ext': ["'AkzidenzGroteskPro Ext'", 'sans-serif'],
