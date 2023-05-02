@@ -11,7 +11,7 @@ const Navbar = () => (
             />
         </div>
 
-        <div className="mt-2 md:mt-0">
+        <div className="mt-2 md:mt-6">
             <ul className="flex flex-1 font-akzidenz font-semibold text-base uppercase flex-wrap">
                 {navLinks.map((link, index) => (
                     <li
