@@ -17,6 +17,7 @@ export default {
             'akzidenz-MdExt': ["'AkzidenzGroteskPro MdEx'", 'sans-serif'],
             'akzidenz-BoldEx': ["'AkzidenzGroteskPro BoldEx'", 'sans-serif'],
             'akzidenz-Bold': ["'AkzidenzGroteskPro Bold'", 'sans-serif'],
+            'akzidenz-LgExt': ["'AkzidenzGroteskPro LightEx'", 'sans-serif'],
           }
         },
         screens: {

@@ -7,7 +7,7 @@ const Navbar = () => (
             <img
                 src="../assets/Logos/EP-Logo-March-2023-03.png"
                 alt="EP Navbar Logo"
-                className="h-auto w-[120px]"
+                className="h-auto w-[130px]"
             />
         </div>
 

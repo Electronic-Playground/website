@@ -9,13 +9,19 @@
 
 
 @font-face {
-  font-family: 'akzidenzRegular';
+  font-family: 'akzidenz';
   src: url('../public/assets/Fonts/AkzidenzGroteskPro-Regular.otf');
   src: url('../public/assets/Fonts/AkzidenzGroteskPro-Ext.otf');
   src: url('../public/assets/Fonts/AkzidenzGroteskPro-Md.otf');
   src: url('../public/assets/Fonts/AkzidenzGroteskPro-MdEx.otf');
   src: url('../public/assets/Fonts/AkzidenzGroteskPro-BoldEx.otf');
   src: url('../public/assets/Fonts/AkzidenzGroteskPro-Bold.ttf');
+  
+}
+
+@font-face {
+  font-family: 'akzidenz-LgExt';
+  src: url('../public/assets/Fonts/AkzidenzGroteskPro-LightEx.ttf'); 
 }
 
 
