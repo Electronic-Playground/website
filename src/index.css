@@ -26,5 +26,9 @@
 
 
 .home-shadow {
-  filter: drop-shadow(1px 1px 60px #1B1B1B);
+  filter: drop-shadow(1px 1px 40px #1B1B1B);
+}
+
+.game-box-shadow {
+  filter: drop-shadow(0px 0px 12px #1B1B1B50);
 }
