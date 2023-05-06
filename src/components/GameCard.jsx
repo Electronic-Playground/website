@@ -2,14 +2,14 @@ import React from "react";
 
 const GameCard = ({ game }) => (
     <div className="bg-gamecard flex w-[350px] cursor-pointer flex-col rounded-xl bg-white px-6 py-3">
-        <div className="mb-4 flex gap-x-4">
+        <div className="mb-4 flex gap-x-8 m-auto">
             <img src={game.logo} alt="#" />
             <h3 className="font-akzidenz text-lg font-bold uppercase text-bg-main-color">
                 {game.title}
             </h3>
         </div>
         <div>
-            <p className="mb-4 font-akzidenz text-base font-normal text-bg-main-color ">
+            <p className="mb-4 font-akzidenz text-justify text-base font-normal text-bg-main-color ">
                 {game.description}
             </p>
         </div>

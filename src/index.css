@@ -44,3 +44,13 @@
   overflow: clip;
 
 }
+
+.ep-bg {
+  background: url('../assets/Fillers/ep-side-01.png');
+  background-size: contain;
+}
+
+.experience-bg-logo {
+  background: url('../assets/Fillers/background-01.png');
+  background-size: contain;
+}
