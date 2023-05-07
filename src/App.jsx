@@ -1,5 +1,5 @@
 import React from 'react'
-import { Contact, Experience, Games, Home, Mission, Navbar, TheTeam } from './components'
+import { Contact, Experience, Footer, Games, Home, Mission, Navbar, TheTeam } from './components'
 
 const App = () => (
   <div className='w-full overflow-hidden bg-[#f1f5f9]'>
@@ -29,6 +29,7 @@ const App = () => (
       <div className='w-full sm:max-w-[1280px] '>
         <Mission />
         <Contact />
+        <Footer />
       </div>
     </div>
 
