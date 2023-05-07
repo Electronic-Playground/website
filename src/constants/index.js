@@ -34,36 +34,42 @@ export const games = [
         title: 'Name Of Game-1',
         description: 'Fugiat officia deserunt voluptate labore veniam culpa.',
         logo: '#',
+        image: "https://picsum.photos/390/720?random=1",
     },
     {
         id: 'game-2',
         title: 'Name Of Game-2',
         description: 'Fugiat officia deserunt voluptate labore veniam culpa.',
         logo: '#',
+        image: "https://picsum.photos/390/720?random=6",
     },
     {
         id: 'game-3',
         title: 'Name Of Game-3',
         description: 'Fugiat officia deserunt voluptate labore veniam culpa.',
         logo: '#',
+        image: "https://picsum.photos/390/720?random=5",
     },
     {
         id: 'game-4',
         title: 'Name Of Game-4',
         description: 'Fugiat officia deserunt voluptate labore veniam culpa.',
         logo: '#',
+        image: "https://picsum.photos/390/720?random=4",
     },
     {
         id: 'game-5',
         title: 'Name Of Game-5',
         description: 'Fugiat officia deserunt voluptate labore veniam culpa.',
         logo: '#',
+        image: "https://picsum.photos/390/720?random=3",
     },
     {
         id: 'game-6',
         title: 'Name Of Game-6',
         description: 'Fugiat officia deserunt voluptate labore veniam culpa.',
         logo: '#',
+        image: "https://picsum.photos/390/720?random=2",
     },
 
 ];

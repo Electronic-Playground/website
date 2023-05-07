@@ -5,7 +5,7 @@ import MissionMsgs from './MissionMsgs';
 const Mission = () => (
     <section id="mission" className="text-slate-50 py-20 font-akzidenz flex flex-col px-4">
       <div>
-        <h2 className="mb-16 text-5xl uppercase">mission</h2>
+        <h2 className="mb-16 text-5xl uppercase tracking-[0.14em]">mission</h2>
       </div>
       <div className="flex flex-1 flex-wrap gap-x-5 justify-between">
         {
