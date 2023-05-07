@@ -24,7 +24,31 @@
   src: url('../public/assets/Fonts/AkzidenzGroteskPro-LightEx.ttf'); 
 }
 
+.cellphoneImg {
+  overflow-clip-margin: content-box;
+  overflow: clip;
 
+}
+
+/* THE TEAM */
+.team-box {
+  transition: color 0.5s;
+}
+.team-box p {
+  color: #1B1B1B;
+}
+
+.team-box:hover {
+  color: #F8B700
+}
+
+.contact:last-child:hover {
+  transform: translateX(0.25rem);
+}
+
+
+
+/* SHADOWS */
 .home-shadow {
   filter: drop-shadow(1px 1px 40px #1B1B1B);
 }
@@ -36,13 +60,19 @@
 .cell-box-shadow {
   filter: drop-shadow(1px 1px 20px #F8B70090);
 }
+
+.team-shadow {
+  position: absolute;
+  z-index: 5;
+  bottom: 10px;
+  left: 0px;
+  box-shadow: 0px 40px 15px 1px #1B1B1B80;
+}
+
+
+/* BACKGROUNDS */
 .bg-gamecard:hover {
   background: linear-gradient(135deg, rgba(255,255,255,1) 45%, rgba(248,183,0,0.5214460784313726) 96%);
-}
-.cellphoneImg {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-
 }
 
 .ep-bg {
@@ -54,3 +84,17 @@
   background: url('../assets/Fillers/background-01.png');
   background-size: contain;
 }
+
+.bg-blackPaper {
+  background: url('../assets/Fillers/Black_paper (1).jpg');
+}
+
+.bg-workPlace {
+  background: url('../assets/Fillers/irfan-simsar-wxWulfjN-G0-unsplash.jpg') ;
+}
+
+.bg-footer {
+  background: url('../assets/Fillers/Hexagon-2.svg');
+  background-size: cover;
+}
+

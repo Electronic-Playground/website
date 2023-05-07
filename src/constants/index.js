@@ -155,3 +155,27 @@ export const teamMembers = [
 ];
 
 
+export const missionMsg = [
+    {
+        id: 'message-1',
+        title: 'Title-1',
+        description: 'Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt. Minim irure est aliqua voluptate esse ullamco aute excepteur est laborum esse eiusmod consectetur sint.'
+    },
+    {
+        id: 'message-2',
+        title: 'Title-2',
+        description: 'Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt.'
+    },
+    {
+        id: 'message-3',
+        title: 'Title-3',
+        description: 'Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt. Minim irure est aliqua voluptate esse ullamco aute excepteur est laborum esse eiusmod consectetur sint.Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt. Minim irure est aliqua voluptate esse ullamco aute excepteur est laborum esse eiusmod consectetur sint.',
+    },
+    {
+        id: 'message-4',
+        title: 'Title-4',
+        description: 'Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt. Minim irure est aliqua voluptate esse ullamco aute excepteur est laborum esse eiusmod consectetur sint.Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt.'
+    },
+]
+
+

@@ -6,6 +6,10 @@ export default {
           colors: {
             'primary': '#F8B700',
             'bg-main-color':'#1B1B1B',
+
+            //secondary colors
+            'primaryOpacity' : '#F8B70020',
+            'primaryStar' : '#F8B70050',
           },
           backgroundImage: {
             'home-pattern': "url('../../assets/Fillers/bg-home-1440x591.svg')",

@@ -1,7 +1,7 @@
 import React from "react";
 
 const GameCard = ({ game }) => (
-    <div className="bg-gamecard flex w-[350px] cursor-pointer flex-col rounded-xl bg-white px-6 py-3">
+    <div className="bg-gamecard flex w-[350px] cursor-pointer flex-col rounded-xl px-6 py-3 transition-all bg-slate-50 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-md">
         <div className="mb-4 flex gap-x-8 m-auto">
             <img src={game.logo} alt="#" />
             <h3 className="font-akzidenz text-lg font-bold uppercase text-bg-main-color">

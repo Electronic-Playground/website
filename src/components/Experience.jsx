@@ -5,7 +5,7 @@ import ClientCard from "./ClientCard";
 const Experience = () => (
     <section id="experience" className="mt-16">
         <div className="flex flex-col items-center justify-between px-6">
-            <div className="py-6 font-akzidenz-Ext text-5xl font-bold uppercase text-bg-main-color">
+            <div className="py-6 font-akzidenz-Ext text-5xl font-normal uppercase text-bg-main-color">
                 <h2>We Work Whit...</h2>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4 py-8 ">

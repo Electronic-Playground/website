@@ -4,7 +4,7 @@ import { games } from "../constants";
 
 const Games = () => (
     <section
-        id="Games"
+        id="games"
         className="relative my-12 flex flex-1 items-center justify-center lg:justify-end"
     >
         <div className="cell-box-shadow  cellphoneImg absolute border-2 rounded-2xl -left-20 top-0 hidden max-w-[455px] lg:flex">
@@ -16,7 +16,7 @@ const Games = () => (
         </div>
         <div className="flex flex-col justify-evenly lg:w-[70%] slg:w-[56.7%]  ">
             <div className="">
-                <h2 className=" my-12 text-center text-bg-main-color font-akzidenz-Ext font-bold text-5xl tracking-[0.3em]">
+                <h2 className=" my-12 text-center text-bg-main-color font-akzidenz-Ext font-normal text-5xl tracking-[0.3em]">
                     GAMES
                 </h2>
             </div>

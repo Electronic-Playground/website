@@ -1,8 +1,28 @@
-import React from 'react'
+import React from "react";
 
-const Contact = () =>  (
-    <div>Contact</div>
-  )
+const Contact = () => (
+    <section id="contact" className="my-20 font-akzidenz text-slate-50">
+        <div className="flex flex-col  xs:flex-row items-center xs:gap-x-12 sm:gap-x-32">
+            <button className="contact  relative rounded-lg px-6 py-3 sm:px-12 sm:py-3 font-semibold tracking-widest outline outline-2 outline-primary transition-all hover:translate-y-3 xs:hover:translate-x-3 xs:hover:translate-y-0 mb-12 xs:mb-0 hover:bg-primary">
+                CONTACT US
+                <span>
+                    <img
+                        src="../../assets/Icons/descarga-arrow.png"
+                        alt="arrow"
+                        className="absolute hidden xs:inline-block xs:-right-5 xs:top-[8px] sm:-right-7 sm:top-[1px] w-[32px] sm:w-[42px] xs:-rotate-90 top-10  transition-all"
+                    />
+                    <img
+                        src="../../assets/Icons/descarga-arrow.png"
+                        alt="arrow"
+                        className="absolute xs:hidden left-16 -bottom-6 w-[32px] transition-all"
+                    />
+                </span>
+            </button>
+            <p className="xs:text-mg font-semibold sm:text-xl">
+                info@electronicplayground.com
+            </p>
+        </div>
+    </section>
+);
 
-
-export default Contact
+export default Contact;

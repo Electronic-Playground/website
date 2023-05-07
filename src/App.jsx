@@ -1,5 +1,5 @@
 import React from 'react'
-import { Experience, Games, Home, Navbar } from './components'
+import { Contact, Experience, Games, Home, Mission, Navbar, TheTeam } from './components'
 
 const App = () => (
   <div className='w-full overflow-hidden bg-[#f1f5f9]'>
@@ -15,17 +15,26 @@ const App = () => (
         <Games />
       </div>
     </div>
-    <div className='flex justify-center py-4 px-6 sm:px-16'>
+    <div className='flex justify-center py-4 px-6 sm:px-16 '>
       <div className='w-full sm:max-w-[1280px] '>
         <Experience />
       </div>
     </div>
+    <div className='flex justify-center py-4 px-6 sm:px-16 experience-bg-logo'>
+      <div className='w-full sm:max-w-[1280px] '>
+        <TheTeam />
+      </div>
+    </div>
+    <div className='flex justify-center py-4 px-6 sm:px-16 bg-footer'>
+      <div className='w-full sm:max-w-[1280px] '>
+        <Mission />
+        <Contact />
+      </div>
+    </div>
 
       <div className='w-full sm:max-w-[1280px]'>
-        EXPERIENCE
-        The team
-        MISSION
-        CONTACT
+      
+        
       
       </div>
   </div>
