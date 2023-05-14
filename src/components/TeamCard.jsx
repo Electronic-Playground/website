@@ -1,16 +1,20 @@
-import React from 'react'
+import React from "react";
 
-const TeamCard = ({member}) => (
-    <div className=" border-2 rounded-xl border-primaryOpacity flex flex-col items-start px-6 py-8 hover:shadow-2xl w-[352px] hover:rounded-xl transition-all hover:-translate-y-2 team-box bg-slate-50">
-        <div className="relative border-2 rounded-xl border-primaryOpacity">
-            <img src={member.photo} alt={member.name} className='w-[90px] h-[120px] object-cover rounded-xl relative z-10' />
-            <div className= 'bg-slate-500 border team-shadow w-[75px] h-[3px] ml-[6px]'/>
+const TeamCard = ({ member }) => (
+    <div className=" team-box flex w-[352px] flex-col items-start rounded-xl border-2 border-primaryOpacity bg-slate-50 px-6 py-8 hover:-translate-y-3 hover:rounded-xl hover:shadow-2xl cardTransition">
+        <div className="relative rounded-xl border-2 border-primaryOpacity">
+            <img
+                src={member.photo}
+                alt={member.name}
+                className="relative z-10 h-[120px] w-[90px] rounded-xl object-cover"
+            />
+            <div className="team-shadow ml-[6px] h-[3px] w-[75px] border bg-slate-500" />
         </div>
-        <h3 className="text-2xl font-akzidenz font-bold pt-14 pb-4 ">{member.name}</h3>
+        <h3 className="pb-4 pt-14 font-akzidenz text-2xl font-bold ">
+            {member.name}
+        </h3>
         <p className="font-akzidenz font-normal">{member.description}</p>
-        
     </div>
-  )
+);
 
-
-export default TeamCard
+export default TeamCard;

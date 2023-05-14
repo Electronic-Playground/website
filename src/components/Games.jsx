@@ -21,7 +21,7 @@ const Games = () => {
             id="games"
             className="relative my-12 flex flex-1 items-center justify-center lg:justify-end"
         >
-            <div className="cell-box-shadow  cellphoneImg absolute -left-20 top-0 hidden max-w-[455px] rounded-2xl border-2 lg:flex">
+            <div className="cell-box-shadow  cellphoneImg absolute -left-20 top-44 hidden max-w-[455px] rounded-2xl border-2 lg:flex">
                 <img
                     src="../../assets/Icons/cellphone-01.png"
                     alt="cellphone"
