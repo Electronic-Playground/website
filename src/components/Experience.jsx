@@ -8,7 +8,7 @@ const Experience = () => (
             <div className="py-6 font-akzidenz-Ext text-5xl font-normal uppercase text-bg-main-color tracking-[0.14em]">
                 <h2>We Work Whit...</h2>
             </div>
-            <div className="flex flex-wrap items-center justify-center gap-4 py-8 ">
+            <div className="flex flex-wrap items-center justify-center gap-5 py-8 ">
                 {clients.map((client, index) => (
                     <div key={client.id} className={`${index === 0 && ''}`}>
                         <ClientCard client={client} index={index} />
