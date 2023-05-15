@@ -1,11 +1,15 @@
 import React from "react";
 
 const ClientCard = ({ client, index }) => (
-    <div className={`cardTransition flex items-center rounded-2xl w-[200px] outline outline-primary outline-2 hover:-translate-y-3 overflow-hidden ${index===0 && 'w-[128px]'} hover:shadow-lg hover:shadow-primary`}>
+    <div
+        className={`cardTransition flex w-[200px] items-center overflow-hidden rounded-2xl outline outline-2 outline-primaryBorder hover:-translate-y-3 ${
+            index === 0 && "w-[128px]"
+        } hover:shadow-lg hover:shadow-primaryStar`}
+    >
         <img
             src={client.image}
             alt={client.name}
-            className={`cardTransition  text-bg-main-color `}
+            className={`text-bg-main-color `}
         />
     </div>
 );
