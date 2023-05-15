@@ -72,7 +72,7 @@
 
 /* BACKGROUNDS */
 .bg-gamecard:hover {
-  background: linear-gradient(135deg, rgba(255,255,255,1) 45%, rgba(248,183,0,0.5214460784313726) 96%);
+  background: linear-gradient(155deg, #F8B70005 35%, #F8B70060 90%);
 }
 
 .ep-bg {
@@ -101,3 +101,7 @@
 .cardTransition {
   transition: all 0.35s ease-in-out;
 }
+
+
+
+/* linear-gradient(135deg, rgba(255,255,255,1) 45%, rgba(248,183,0,0.5214460784313726) 96%); */
