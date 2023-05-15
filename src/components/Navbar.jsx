@@ -5,9 +5,9 @@ const Navbar = () => (
     <nav className="relative flex flex-col md:flex-row justify-between bg-bg-main-color px-2 md:px-16 pt-2 md:pt-4">
         <div>
             <img
-                src="../assets/Logos/EP-Logo-March-2023-03.png"
+                src="../assets/Logos/EP-Logo-orange-black.png"
                 alt="EP Navbar Logo"
-                className="h-auto w-[130px]"
+                className="h-auto w-[170px]"
             />
         </div>
 

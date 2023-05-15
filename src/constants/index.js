@@ -31,45 +31,57 @@ export const navLinks = [
 export const games = [
     {
         id: 'game-1',
-        title: 'Name Of Game-1',
+        title: 'LumberVille',
         description: 'lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis consectetur aute velit anim nostrud deserunt exercitation duis consequat.',
-        logo: '#',
+        logo: './assets/Icons/lumberville.png',
         image: "https://picsum.photos/390/720?random=1",
+        googleplay: '',
+        ios: '',
     },
     {
         id: 'game-2',
-        title: 'Name Of Game-2',
+        title: 'Rummy Tales',
         description: 'lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis consectetur aute velit anim nostrud deserunt exercitation duis consequat.',
-        logo: '#',
+        logo: './assets/Icons/rummytales.png',
         image: "https://picsum.photos/390/720?random=6",
+        googleplay: 'https://play.google.com/store/apps/details?id=com.ramengames.rummytales',
+        ios: 'https://apps.apple.com/in/app/rummy-tales/id1548705890',
     },
     {
         id: 'game-3',
-        title: 'Name Of Game-3',
+        title: 'Dawnblade',
         description: 'lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis consectetur aute velit anim nostrud deserunt exercitation duis consequat.',
-        logo: '#',
+        logo: './assets/Icons/dawnblade.png',
         image: "https://picsum.photos/390/720?random=5",
+        googleplay: 'https://play.google.com/store/apps/details?id=com.MonsterScope.Dawnblade&hl=en&gl=US',
+        ios: 'https://apps.apple.com/ca/app/dawnblade/id1625067975',
     },
     {
         id: 'game-4',
-        title: 'Name Of Game-4',
+        title: 'The Otherside',
         description: 'lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis consectetur aute velit anim nostrud deserunt exercitation duis consequat.',
-        logo: '#',
+        logo: './assets/Icons/theotherside.png',
         image: "https://picsum.photos/390/720?random=4",
+        googleplay: '',
+        ios: 'https://apps.apple.com/us/app/the-otherside/id1415190753',
     },
     {
         id: 'game-5',
-        title: 'Name Of Game-5',
+        title: 'Orbital Merge',
         description: 'lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis consectetur aute velit anim nostrud deserunt exercitation duis consequat.',
-        logo: '#',
+        logo: './assets/Icons/orbitalmerge.png',
         image: "https://picsum.photos/390/720?random=3",
+        googleplay: 'https://play.google.com/store/apps/details?id=com.axiosgames.orbitalabc&hl=en&gl=US',
+        ios: '',
     },
     {
         id: 'game-6',
-        title: 'Name Of Game-6',
+        title: 'Hoops Champ 3D',
         description: 'lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis consectetur aute velit anim nostrud deserunt exercitation duis consequat.',
-        logo: '#',
+        logo: './assets/Icons/hoopchamps3D.png',
         image: "https://picsum.photos/390/720?random=2",
+        googleplay: 'https://play.google.com/store/apps/details?id=com.axiosgames.basketballblitz&hl=en&gl=US',
+        ios: 'https://apps.apple.com/al/app/hoops-champ-3d/id1477822488',
     },
 
 ];
@@ -77,13 +89,13 @@ export const games = [
 export const clients = [
     {
         id: 'client-1',
-        name: 'ClientNAME-1',
-        image: '#',
+        name: 'Axios Games',
+        image: './assets/Icons/axiosGames.png',
     },
     {
         id: 'client-2',
-        name: 'ClientNAME-2',
-        image: '#',
+        name: 'BarbaCube',
+        image: './assets/Icons/BarbaCube.jpg',
     },
     {
         id: 'client-3',
@@ -110,31 +122,31 @@ export const clients = [
 export const teamMembers = [
     {
         id: 'member-1',
-        name: 'MEMBER#1',
+        name: 'ANTON',
         photo: anton,
         description: 'Velit irure dolor nostrud qui ea anim.'
     },
     {
         id: 'member-2',
-        name: 'Rodrigo Gomez',
+        name: 'RODRI',
         photo: rodri,
         description: 'Velit irure dolor nostrud qui ea anim.'
     },
     {
         id: 'member-3',
-        name: 'MEMBER#3',
+        name: 'SHANTI',
         photo: shanti,
         description: 'Velit irure dolor nostrud qui ea anim.'
     },
     {
         id: 'member-4',
-        name: 'MEMBER#4',
+        name: 'TOMIS',
         photo: tomis,
         description: 'Velit irure dolor nostrud qui ea anim.'
     },
     {
         id: 'member-5',
-        name: 'MEMBER#5',
+        name: 'ZAMFIR',
         photo: zamfir,
         description: 'Velit irure dolor nostrud qui ea anim.'
     },
