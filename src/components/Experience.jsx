@@ -10,8 +10,8 @@ const Experience = () => (
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4 py-8 ">
                 {clients.map((client, index) => (
-                    <div key={client.id} className={``}>
-                        <ClientCard client={client} />
+                    <div key={client.id} className={`${index === 0 && ''}`}>
+                        <ClientCard client={client} index={index} />
                     </div>
                 ))}
             </div>
