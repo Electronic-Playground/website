@@ -14,15 +14,21 @@ const GameCard = ({ game }) => (
             </p>
         </div>
         <div className="m-auto mb-1 flex gap-2">
-            <a href="http://">
-                <img src="../../assets/Icons/apple.svg" alt="Ios download" />
-            </a>
-            <a href="http://">
-                <img
-                    src="../../assets/Icons/google.svg"
-                    alt="Google Play download"
-                />
-            </a>
+            {
+                game.ios != '' &&
+                <a href={game.ios}>
+                    <img src="../../assets/Icons/apple.svg" alt="Ios download" />
+                </a>
+            }
+            {
+                game.googleplay != '' &&
+                <a href={game.googleplay}>
+                    <img
+                        src="../../assets/Icons/google.svg"
+                        alt="Google Play download"
+                    />
+                </a>
+            }
         </div>
     </div>
 );
