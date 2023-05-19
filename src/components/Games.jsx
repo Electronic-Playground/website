@@ -19,7 +19,7 @@ const Games = () => {
         >
             {highlightGame.title === "Dawnblade" ||
             highlightGame.title === "The Otherside" ? (
-                <div className="cell-box-shadow  cellphoneImg absolute transition-all -left-28gi top-44 hidden max-w-[455px] rotate-90 rounded-2xl border-2 lg:flex">
+                <div className="cell-box-shadow  cellphoneImg absolute transition-all -left-28 top-44 hidden max-w-[455px] rotate-90 rounded-2xl border-2 lg:flex">
                     <img
                         src="../../assets/Icons/cellphone-01.png"
                         alt="cellphone"
