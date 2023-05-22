@@ -98,12 +98,12 @@ export const clients = [
     {
         id: "client-1",
         name: "Axios Games",
-        image: "./assets/Icons/Axios-logo-grande.PNG",
+        image: "./assets/Logos/Axios-logo-grande - Edited.png",
     },
     {
         id: "client-2",
         name: "BarbaCube",
-        image: "./assets/Icons/BarbaCube.jpg",
+        image: "./assets/Logos/BarbaCube - Edited.jpg",
     },
     {
         id: "client-3",

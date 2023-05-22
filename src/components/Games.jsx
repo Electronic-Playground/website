@@ -3,7 +3,7 @@ import GameCard from "./GameCard";
 import { games } from "../constants";
 
 const Games = () => {
-    const [highlightGame, setHighlightGame] = useState(null);
+    const [highlightGame, setHighlightGame] = useState({});
 
     const handleHover = (id) => {
         const game = games.find((game) => game.id === id);
@@ -11,6 +11,8 @@ const Games = () => {
             setHighlightGame(game);
         }
     };
+
+    console.log({highlightGame});
 
     return (
         <section
@@ -28,7 +30,7 @@ const Games = () => {
                     {highlightGame && (
                         <img
                             src={highlightGame ? highlightGame.image : null}
-                            alt="random"
+                            alt={highlightGame.title}
                             className={`absolute left-8 top-7 rounded-3xl`}
                         />
                     )}
@@ -43,7 +45,7 @@ const Games = () => {
                     {highlightGame && (
                         <img
                             src={highlightGame ? highlightGame.image : null}
-                            alt="random"
+                            alt={highlightGame.title}
                             className={`absolute left-8 top-7 rounded-3xl`}
                         />
                     )}

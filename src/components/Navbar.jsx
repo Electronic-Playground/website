@@ -2,7 +2,7 @@ import React from "react";
 import { navLinks } from "../constants";
 
 const Navbar = () => (
-    <nav className="relative flex flex-col md:flex-row justify-between bg-bg-main-color px-2 md:px-16 pt-2 md:pt-4">
+    <nav className="relative flex flex-col md:flex-row justify-between bg-bg-main-color px-2 md:px-16 pt-2 md:pt-8">
         <div>
             <img
                 src="../assets/Logos/EP-Logo-orange-black.png"
@@ -24,7 +24,7 @@ const Navbar = () => (
                 ))}
             </ul>
         </div>
-        <hr className="h-[1px] w-[95%] m-auto border-white md:hidden my-4"/>
+        <hr className="h-[1px] w-[100%] m-auto border-white md:hidden my-4"/>
     </nav>
 );
 

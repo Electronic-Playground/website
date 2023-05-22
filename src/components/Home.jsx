@@ -6,9 +6,9 @@ const Home = () => (
         id="home"
         className="relative  flex h-[591px] max-w-[1280px] overflow-hidden rounded-b-2xl bg-home-pattern px-2 md:px-16"
     >
-        <div className="relative z-10 flex w-full flex-col justify-evenly  xs:w-[80%] ss:w-[80%] sm:w-[55%] md:w-[45%]">
+        <div className="relative z-10 flex w-full flex-col justify-around xs:w-[80%] ss:w-[80%] sm:w-[55%] md:w-[45%]">
             <div>
-                <h1 className="font-akzidenz-LgExt text-5xl font-[300] uppercase leading-[70px] text-white">
+                <h1 className="font-akzidenz-LgExt text-5xl font-[600] uppercase leading-[70px] md:tracking-widest text-white">
                     electronic playground
                 </h1>
                 <Button>CONTACT US</Button>
