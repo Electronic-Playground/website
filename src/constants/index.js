@@ -107,24 +107,24 @@ export const clients = [
     },
     {
         id: "client-3",
-        name: "ClientNAME-3",
-        image: "#",
+        name: "Dive",
+        image: "./assets/Logos/dive-logo.png",
     },
     {
         id: "client-4",
-        name: "ClientNAME-4",
-        image: "#",
+        name: "Monster Scope",
+        image: "./assets/Logos/monsterScope-logo.png",
     },
     {
         id: "client-5",
-        name: "ClientNAME-5",
-        image: "#",
+        name: "QuickByte",
+        image: "./assets/Logos/quickbyte-logo.png",
     },
-    {
-        id: "client-6",
-        name: "ClientNAME-6",
-        image: "#",
-    },
+    // {
+    //     id: "client-6",
+    //     name: "ClientNAME-6",
+    //     image: "#",
+    // },
 ];
 
 export const teamMembers = [

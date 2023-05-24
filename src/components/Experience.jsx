@@ -5,10 +5,10 @@ import ClientCard from "./ClientCard";
 const Experience = () => (
     <section id="experience" className="mt-16">
         <div className="flex flex-col items-center justify-between px-6">
-            <div className="py-6 font-akzidenz-Ext text-5xl font-normal uppercase text-bg-main-color tracking-[0.14em]">
-                <h2>We Work Whit...</h2>
+            <div className="py-6 font-akzidenz-Ext text-5xl font-normal uppercase text-center text-bg-main-color tracking-[0.14em]">
+                <h2>We Work With...</h2>
             </div>
-            <div className="flex flex-wrap items-center justify-center gap-5 py-8 ">
+            <div className="flex flex-wrap items-center justify-center gap-12 md:gap-11  py-8 ">
                 {clients.map((client, index) => (
                     <div key={client.id} className={`${index === 0 && ''}`}>
                         <ClientCard client={client} index={index} />

@@ -2,7 +2,7 @@ import React from "react";
 
 const ClientCard = ({ client, index }) => (
     <div
-        className={`cardTransition flex w-[160px] items-center overflow-hidden rounded-2xl outline outline-2 outline-primaryBorder hover:-translate-y-3 hover:shadow-lg hover:shadow-primaryStar `}
+        className={`cardTransition flex w-[210px] items-center overflow-hidden rounded-2xl outline outline-2 outline-primaryBorder hover:-translate-y-3 hover:shadow-lg hover:shadow-primaryStar bg-black ${index === 4 && 'h-[116px]'}`}
     >
         <img
             src={client.image}
