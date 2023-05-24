@@ -34,8 +34,8 @@ export const games = [
         description:
             "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
         logo: "./assets/Icons/lumberville.png",
-        image: "https://picsum.photos/390/720?random=1",
-        googleplay: "",
+        image: "./assets/Games/LumberVille-cell.jpg",
+        googleplay: "https://play.google.com/store/apps/details?id=com.MonsterScope.LumberVille",
         ios: "",
     },
     {
@@ -44,7 +44,7 @@ export const games = [
         description:
             "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
         logo: "./assets/Icons/rummytales.png",
-        image: "https://picsum.photos/390/720?random=6",
+        image: "./assets/Games/rummy4.png",
         googleplay:
             "https://play.google.com/store/apps/details?id=com.ramengames.rummytales",
         ios: "https://apps.apple.com/in/app/rummy-tales/id1548705890",
@@ -55,7 +55,7 @@ export const games = [
         description:
             "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
         logo: "./assets/Icons/dawnblade.png",
-        image: "https://picsum.photos/390/720?random=5",
+        image: "./assets/Games/dawnblade2.jpg",
         googleplay:
             "https://play.google.com/store/apps/details?id=com.MonsterScope.Dawnblade&hl=en&gl=US",
         ios: "https://apps.apple.com/ca/app/dawnblade/id1625067975",
@@ -66,7 +66,7 @@ export const games = [
         description:
             "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
         logo: "./assets/Icons/theotherside.png",
-        image: "https://picsum.photos/390/720?random=4",
+        image: "./assets/Games/TheOtherside.jpg",
         googleplay: "",
         ios: "https://apps.apple.com/us/app/the-otherside/id1415190753",
     },
@@ -76,7 +76,7 @@ export const games = [
         description:
             "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
         logo: "./assets/Icons/orbitalmerge.png",
-        image: "https://picsum.photos/390/720?random=3",
+        image: "./assets/Games/orbital2.png",
         googleplay:
             "https://play.google.com/store/apps/details?id=com.axiosgames.orbitalabc&hl=en&gl=US",
         ios: "",
@@ -87,7 +87,7 @@ export const games = [
         description:
             "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
         logo: "./assets/Icons/hoopchamps3D.png",
-        image: "https://picsum.photos/390/720?random=2",
+        image: "./assets/Games/HoopChamps.png",
         googleplay:
             "https://play.google.com/store/apps/details?id=com.axiosgames.basketballblitz&hl=en&gl=US",
         ios: "https://apps.apple.com/al/app/hoops-champ-3d/id1477822488",

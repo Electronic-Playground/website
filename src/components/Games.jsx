@@ -12,7 +12,7 @@ const Games = () => {
         }
     };
 
-    console.log({highlightGame});
+    console.log({ highlightGame });
 
     return (
         <section
@@ -31,7 +31,7 @@ const Games = () => {
                         <img
                             src={highlightGame ? highlightGame.image : null}
                             alt={highlightGame.title}
-                            className={`absolute left-8 top-7 rounded-3xl`}
+                            className={`absolute left-8 top-7 h-[720px] w-[390px] rounded-3xl -rotate-180 object-cover`}
                         />
                     )}
                 </div>
@@ -46,7 +46,7 @@ const Games = () => {
                         <img
                             src={highlightGame ? highlightGame.image : null}
                             alt={highlightGame.title}
-                            className={`absolute left-8 top-7 rounded-3xl`}
+                            className={`absolute left-8 top-7 h-[720px] w-[390px] rounded-3xl object-cover`}
                         />
                     )}
                 </div>
