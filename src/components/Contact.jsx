@@ -8,7 +8,7 @@ const Contact = () => {
     const [emailClick, setEmailClick] = useState(false);
 
     return(
-    <section id="contact" className="my-20 font-akzidenz text-slate-50">
+    <section id="contact" className="mt-8 mb-12 font-akzidenz text-slate-50">
         <div className="flex flex-col  xs:flex-row items-center xs:gap-x-12 sm:gap-x-32">
             <button className="contact  relative rounded-lg px-6 py-3 sm:px-12 sm:py-3 font-semibold tracking-widest outline outline-2 outline-primary transition-all hover:translate-y-3 xs:hover:translate-x-3 xs:hover:translate-y-0 mb-12 xs:mb-0 hover:bg-primary"
             onClick={() => setEmailClick(!emailClick)}>

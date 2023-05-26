@@ -17,7 +17,7 @@ const Games = () => {
     return (
         <section
             id="games"
-            className="relative my-12 flex flex-1 items-center justify-center lg:justify-end"
+            className="relative mt-8 mb-12 flex flex-1 items-center justify-center lg:justify-end"
         >
             {highlightGame.title === "Dawnblade" ||
             highlightGame.title === "The Otherside" ? (

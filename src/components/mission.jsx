@@ -3,7 +3,7 @@ import { missionMsg } from '../constants';
 import MissionMsgs from './MissionMsgs';
 
 const Mission = () => (
-    <section id="mission" className="text-slate-50 py-20 font-akzidenz flex flex-col px-4">
+    <section id="mission" className="text-slate-50 pt-8 mb-12 font-akzidenz flex flex-col px-4">
       <div>
         <h2 className="mb-16 text-5xl uppercase tracking-[0.14em]">mission</h2>
       </div>

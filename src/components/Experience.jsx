@@ -3,7 +3,7 @@ import { clients } from "../constants";
 import ClientCard from "./ClientCard";
 
 const Experience = () => (
-    <section id="experience" className="mt-16">
+    <section id="experience" className="mt-8 mb-12">
         <div className="flex flex-col items-center justify-between px-6">
             <div className="py-6 font-akzidenz-Ext text-5xl font-normal uppercase text-center text-bg-main-color tracking-[0.14em]">
                 <h2>We Work With...</h2>
