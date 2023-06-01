@@ -29,7 +29,7 @@ const Contact = () => {
             {
                 emailClick &&
                 <p className="xs:text-mg font-semibold sm:text-xl transition-all animate__animated animate__fadeInRight">
-                    info@electronicplayground.com
+                    contact@electronicplayground.io
                 </p>
 
             }

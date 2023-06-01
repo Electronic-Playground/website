@@ -15,17 +15,15 @@ const Home = () => (
             <Button>CONTACT US</Button>
             <div>
                 <p className="font-akzidenz-LgExt text-[18px] text-white">
-                    Some Text Here.....Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Dicta, aliquam temporibus, dolor cumque
-                    deserunt totam non!
+                We are a leading mobile game development studio committed to delivering captivating and immersive gaming experiences. Our team of talented developers, designers, and artists is dedicated to creating innovative and high-quality games that captivate players worldwide
                 </p>
             </div>
         </div>
-        <div className="absolute -bottom-28 right-12 z-[10] hidden md:block">
+        <div className="absolute bottom-10 right-20 z-[10] hidden md:block">
             <img
-                src="../../assets/Fillers/day95-app-development.svg"
+                src="../../assets/Fillers/DefinitiveImage.png"
                 alt="blockChain"
-                className="w-[600px]"
+                className="w-[550px]"
             />
         </div>
     </section>

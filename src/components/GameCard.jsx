@@ -8,8 +8,8 @@ const GameCard = ({ game }) => (
                 {game.title}
             </h3>
         </div>
-        <div>
-            <p className="mb-4 font-akzidenz text-center text-sm font-normal text-bg-main-color ">
+        <div className="my-3">
+            <p className="mb-4 font-akzidenz text-center text-base font-normal text-bg-main-color ">
                 {game.description}
             </p>
         </div>

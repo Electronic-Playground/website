@@ -41,7 +41,7 @@ export const games = [
         id: "game-1",
         title: "LumberVille",
         description:
-            "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
+            "Idle Lumber Tycoon. Merge and Grow your empire.",
         logo: "./assets/Icons/lumberville.png",
         image: "./assets/Games/LumberVille-cell.jpg",
         googleplay:
@@ -52,7 +52,7 @@ export const games = [
         id: "game-2",
         title: "Rummy Tales",
         description:
-            "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
+            "Online Multiplayer Free to play classic Rummy game.",
         logo: "./assets/Icons/rummytales.png",
         image: "./assets/Games/rummy4.png",
         googleplay:
@@ -63,7 +63,7 @@ export const games = [
         id: "game-3",
         title: "Dawnblade",
         description:
-            "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
+            "A modern hack ‘n’ slash, dungeon crawler action RPG.",
         logo: "./assets/Icons/dawnblade.png",
         image: "./assets/Games/dawnblade2.jpg",
         googleplay:
@@ -74,7 +74,7 @@ export const games = [
         id: "game-4",
         title: "The Otherside",
         description:
-            "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
+            "Turn based RPG and strategy board game.",
         logo: "./assets/Icons/theotherside.png",
         image: "./assets/Games/TheOtherside.jpg",
         googleplay: "",
@@ -84,7 +84,7 @@ export const games = [
         id: "game-5",
         title: "Orbital Merge",
         description:
-            "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
+            "Addictive 2048 Gameplay! Merge and solve the puzzle.",
         logo: "./assets/Icons/orbitalmerge.png",
         image: "./assets/Games/orbital2.png",
         googleplay:
@@ -95,7 +95,7 @@ export const games = [
         id: "game-6",
         title: "Hoops Champ 3D",
         description:
-            "lorem Sit fugiat ipsum nostrud duis mollit nulla ipsum voluptate cillum sint occaecat reprehenderit aliqua eu. Reprehenderit adipisicing cupidatat proident eiusmod duis.",
+            "Turn based RPG and strategy board game.",
         logo: "./assets/Icons/hoopchamps3D.png",
         image: "./assets/Games/HoopChamps.png",
         googleplay:
@@ -207,26 +207,26 @@ export const teamMembers = [
 export const missionMsg = [
     {
         id: "message-1",
-        title: "Title-1",
+        title: "Crafting Captivating Experiences",
         description:
-            "Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt. Minim irure est aliqua voluptate esse ullamco aute excepteur est laborum esse eiusmod consectetur sint.",
+            "At our mobile game development studio, our mission is to redefine the boundaries of interactive entertainment. We specialize in crafting captivating gaming experiences that resonate with players worldwide. Leveraging our expertise in mobile game development, we strive to create innovative and immersive games that keep players hooked, providing endless hours of excitement and enjoyment.",
     },
     {
         id: "message-2",
-        title: "Title-2",
+        title: "Unleashing Creativity",
         description:
-            "Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt.",
+            "As a game development studio, we pride ourselves on our in-house approach to game creation. By focusing solely on in-house game development, we have the freedom to explore new ideas, experiment with unique concepts, and craft games that truly reflect our creative vision. Our team of talented and passionate mobile game developers works collaboratively, pooling their skills and expertise to bring imaginative worlds and captivating characters to life.",
     },
     {
         id: "message-3",
-        title: "Title-3",
+        title: "Staying Ahead",
         description:
-            "Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt. Minim irure est aliqua voluptate esse ullamco aute excepteur est laborum esse eiusmod consectetur sint.Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt. Minim irure est aliqua voluptate esse ullamco aute excepteur est laborum esse eiusmod consectetur sint.",
+            "In the dynamic and ever-evolving mobile gaming industry, we understand the importance of staying ahead of the curve. Our commitment to embracing technological advancements and industry trends enables us to remain at the forefront of game development. We continually push ourselves to adopt cutting-edge tools, techniques, and technologies to enhance the gameplay experience and deliver games that surpass expectations.",
     },
     {
         id: "message-4",
-        title: "Title-4",
+        title: "Beyond Creation",
         description:
-            "Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt. Minim irure est aliqua voluptate esse ullamco aute excepteur est laborum esse eiusmod consectetur sint.Reprehenderit consectetur commodo voluptate ea consequat. Ullamco occaecat nostrud do dolore aliquip Lorem. Ut sint enim ad reprehenderit esse Lorem minim do quis non id ut incididunt.",
+            "We aspire to make a lasting impact on the industry by challenging conventions, fostering creativity, and inspiring the next generation of game developers. Through strategic partnerships, collaborations, and mentorship programs, we actively contribute to the growth and development of the gaming community.",
     },
 ];
