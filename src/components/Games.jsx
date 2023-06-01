@@ -54,7 +54,7 @@ const Games = () => {
             <div className="flex flex-col justify-evenly lg:w-[70%] slg:w-[56.7%]  ">
                 <div className="">
                     <h2 className=" my-12 text-center font-akzidenz-Ext text-5xl font-normal tracking-[0.14em] text-bg-main-color">
-                        GAMES
+                        <b>GAMES</b>
                     </h2>
                 </div>
                 <div className="flex flex-wrap justify-center sm:gap-3 md:gap-6 lg:justify-end">

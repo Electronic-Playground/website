@@ -49,17 +49,6 @@ export const games = [
         ios: "",
     },
     {
-        id: "game-2",
-        title: "Rummy Tales",
-        description:
-            "Online Multiplayer Free to play classic Rummy game.",
-        logo: "./assets/Icons/rummytales.png",
-        image: "./assets/Games/rummy4.png",
-        googleplay:
-            "https://play.google.com/store/apps/details?id=com.ramengames.rummytales",
-        ios: "https://apps.apple.com/in/app/rummy-tales/id1548705890",
-    },
-    {
         id: "game-3",
         title: "Dawnblade",
         description:
@@ -81,6 +70,17 @@ export const games = [
         ios: "https://apps.apple.com/us/app/the-otherside/id1415190753",
     },
     {
+        id: "game-2",
+        title: "Rummy Tales",
+        description:
+            "Online Multiplayer Free to play classic Rummy game.",
+        logo: "./assets/Icons/rummytales.png",
+        image: "./assets/Games/rummy4.png",
+        googleplay:
+            "https://play.google.com/store/apps/details?id=com.ramengames.rummytales",
+        ios: "https://apps.apple.com/in/app/rummy-tales/id1548705890",
+    },
+    {
         id: "game-5",
         title: "Orbital Merge",
         description:
@@ -95,7 +95,7 @@ export const games = [
         id: "game-6",
         title: "Hoops Champ 3D",
         description:
-            "Turn based RPG and strategy board game.",
+            "Fantastic basketball arcade game for everyone to enjoy!",
         logo: "./assets/Icons/hoopchamps3D.png",
         image: "./assets/Games/HoopChamps.png",
         googleplay:
@@ -111,6 +111,11 @@ export const clients = [
         image: "./assets/Logos/Axios-logo-grande - Edited.png",
     },
     {
+        id: "client-4",
+        name: "Monster Scope",
+        image: "./assets/Logos/monsterScope-logo.png",
+    },
+    {
         id: "client-2",
         name: "BarbaCube",
         image: "./assets/Logos/BarbaCube - Edited.jpg",
@@ -119,11 +124,6 @@ export const clients = [
         id: "client-3",
         name: "Dive",
         image: "./assets/Logos/dive-logo.png",
-    },
-    {
-        id: "client-4",
-        name: "Monster Scope",
-        image: "./assets/Logos/monsterScope-logo.png",
     },
     {
         id: "client-5",

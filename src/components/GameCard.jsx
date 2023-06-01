@@ -16,13 +16,13 @@ const GameCard = ({ game }) => (
         <div className="m-auto mb-1 flex gap-2">
             {
                 game.ios != '' &&
-                <a href={game.ios}>
+                <a href={game.ios} target="_blank">
                     <img src="../../assets/Icons/apple.svg" alt="Ios download" />
                 </a>
             }
             {
                 game.googleplay != '' &&
-                <a href={game.googleplay}>
+                <a href={game.googleplay} target="_blank">
                     <img
                         src="../../assets/Icons/google.svg"
                         alt="Google Play download"

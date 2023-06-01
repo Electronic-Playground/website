@@ -32,12 +32,6 @@ const App = () => (
         <Footer />
       </div>
     </div>
-
-      <div className='w-full sm:max-w-[1280px]'>
-      
-        
-      
-      </div>
   </div>
   )
 
