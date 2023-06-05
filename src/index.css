@@ -2,105 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
-  scroll-behavior: smooth;
-}
-
-
-@font-face {
-  font-family: 'akzidenz';
-  src: url('../public/assets/Fonts/AkzidenzGroteskPro-Regular.otf');
-  src: url('../public/assets/Fonts/AkzidenzGroteskPro-Ext.otf');
-  src: url('../public/assets/Fonts/AkzidenzGroteskPro-Md.otf');
-  src: url('../public/assets/Fonts/AkzidenzGroteskPro-MdEx.otf');
-  src: url('../public/assets/Fonts/AkzidenzGroteskPro-BoldEx.otf');
-  src: url('../public/assets/Fonts/AkzidenzGroteskPro-Bold.ttf');
-  
+    scroll-behavior: smooth;
 }
 
 @font-face {
-  font-family: 'akzidenz-LgExt';
-  src: url('../public/assets/Fonts/AkzidenzGroteskPro-LightEx.ttf'); 
+    font-family: "akzidenz";
+    src: url("../public/assets/Fonts/AkzidenzGroteskPro-Regular.otf");
+    src: url("../public/assets/Fonts/AkzidenzGroteskPro-Ext.otf");
+    src: url("../public/assets/Fonts/AkzidenzGroteskPro-Md.otf");
+    src: url("../public/assets/Fonts/AkzidenzGroteskPro-MdEx.otf");
+    src: url("../public/assets/Fonts/AkzidenzGroteskPro-BoldEx.otf");
+    src: url("../public/assets/Fonts/AkzidenzGroteskPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: "akzidenz-LgExt";
+    src: url("../public/assets/Fonts/AkzidenzGroteskPro-LightEx.ttf");
 }
 
 .cellphoneImg {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 /* THE TEAM */
 .team-box {
-  transition: color 0.5s;
+    transition: color 0.5s;
 }
 .team-box p {
-  color: #1B1B1B;
+    color: #1b1b1b;
 }
 
 .team-box:hover {
-  color: #F8B700
+    color: #f8b700;
 }
 
 .contact:last-child:hover {
-  transform: translateX(0.25rem);
+    transform: translateX(0.25rem);
 }
-
-
 
 /* SHADOWS */
 .home-shadow {
-  filter: drop-shadow(1px 1px 40px #1B1B1B);
+    filter: drop-shadow(1px 1px 40px #1b1b1b);
 }
 
 .game-box-shadow {
-  filter: drop-shadow(0px 0px 12px #1B1B1B50);
+    filter: drop-shadow(0px 0px 12px #1b1b1b50);
 }
 
 .cell-box-shadow {
-  filter: drop-shadow(1px 1px 20px #F8B70090);
+    filter: drop-shadow(1px 1px 20px #f8b70090);
 }
 
 .team-shadow {
-  position: absolute;
-  z-index: 5;
-  bottom: 10px;
-  left: 0px;
-  box-shadow: 0px 40px 15px 1px #1B1B1B80;
+    position: absolute;
+    z-index: 5;
+    bottom: 10px;
+    left: 0px;
+    box-shadow: 0px 40px 15px 1px #1b1b1b80;
 }
-
 
 /* BACKGROUNDS */
 .bg-gamecard:hover {
-  background: linear-gradient(155deg, #F8B70005 35%, #F8B70060 90%);
+    background: linear-gradient(155deg, #f8b70005 35%, #f8b70060 90%);
 }
 
 .ep-bg {
-  background: url('../assets/Fillers/ep-side-01.png');
-  background-size: contain;
+    background: url("../assets/Fillers/ep-side-01.png");
+    background-size: contain;
 }
 
 .experience-bg-logo {
-  background: url('../assets/Fillers/background-01.png');
-  background-size: contain;
+    background: url("../assets/Fillers/background-01.png");
+    background-size: contain;
 }
 
 .bg-blackPaper {
-  background: url('../assets/Fillers/Black_paper (1).jpg');
+    background: url("../assets/Fillers/Black_paper (1).jpg");
 }
 
 .bg-workPlace {
-  background: url('../assets/Fillers/irfan-simsar-wxWulfjN-G0-unsplash.jpg') ;
+    background: url("../assets/Fillers/irfan-simsar-wxWulfjN-G0-unsplash.jpg");
 }
 
 .bg-footer {
-  background: url('../assets/Fillers/Hexagon-2.svg');
-  background-size: cover;
+    background: url("../assets/Fillers/Hexagon-2.svg");
+    background-size: cover;
 }
 
 .cardTransition {
-  transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
 
+.unset {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 
 /* linear-gradient(135deg, rgba(255,255,255,1) 45%, rgba(248,183,0,0.5214460784313726) 96%); */

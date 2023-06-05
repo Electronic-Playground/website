@@ -28,7 +28,7 @@ const Contact = () => {
             </button>
             {
                 emailClick &&
-                <p className="xs:text-mg font-semibold sm:text-xl transition-all animate__animated animate__fadeInRight">
+                <p className="xs:text-mg mt-3 xs:mt-0 font-semibold sm:text-xl h-[30px] transition-all animate__animated animate__fadeInRight">
                     contact@electronicplayground.io
                 </p>
 
