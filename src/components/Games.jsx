@@ -1,23 +1,31 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import GameCard from "./GameCard";
 import { games } from "../constants";
 
 const Games = () => {
     const [highlightGame, setHighlightGame] = useState({});
 
-    const handleHover = (id) => {
+    const handleHover = (id, index) => {
         const game = games.find((game) => game.id === id);
         if (game) {
+            const imgArray = JSON.parse(localStorage.getItem("images"));
+            game.image = imgArray[index];
             setHighlightGame(game);
         }
     };
 
-    console.log({ highlightGame });
+    useEffect(() => {
+        const imageArray = games
+            .filter((game) => game.image)
+            .map((game) => game.image);
+
+        localStorage.setItem("images", JSON.stringify(imageArray));
+    }, []);
 
     return (
         <section
             id="games"
-            className="relative mt-8 mb-12 flex flex-1 items-center justify-center lg:justify-end"
+            className="relative mb-12 mt-8 flex flex-1 items-center justify-center lg:justify-end"
         >
             {highlightGame.title === "Dawnblade" ||
             highlightGame.title === "The Otherside" ? (
@@ -31,7 +39,7 @@ const Games = () => {
                         <img
                             src={highlightGame ? highlightGame.image : null}
                             alt={highlightGame.title}
-                            className={`absolute left-8 top-7 h-[720px] w-[390px] rounded-3xl -rotate-180 object-cover`}
+                            className={`absolute left-8 top-7 h-[720px] w-[390px] -rotate-180 rounded-3xl object-cover`}
                         />
                     )}
                 </div>
@@ -66,7 +74,7 @@ const Games = () => {
                                     ? "mb-0"
                                     : "mb-7 sm:mb-8"
                             }`}
-                            onMouseOver={() => handleHover(game.id)}
+                            onMouseOver={() => handleHover(game.id, index)}
                         >
                             <GameCard game={game} />
                         </div>
