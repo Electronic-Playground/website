@@ -142,7 +142,7 @@ export const teamMembers = [
         id: "member-1",
         name: "ANTONIO",
         photo: anton,
-        description: "CPO & Lead Game Desdigner (Co-Founder).",
+        description: "CPO & Lead Game Designer (Co-Founder).",
         experience: '7+ Years Mobile Games Experience.',
         gamesExp: '15 Shipped Games.',
     },
