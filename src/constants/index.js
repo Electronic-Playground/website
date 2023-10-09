@@ -7,6 +7,7 @@ import {
     David,
     Joako,
     Marcos,
+    Jose,
 } from "../../public/assets/Team";
 
 export const navLinks = [
@@ -43,7 +44,7 @@ export const games = [
         description:
             "Idle Lumber Tycoon. Merge and Grow your empire.",
         logo: "./assets/Icons/lumberville.png",
-        image: "./assets/Games/LumberVille-cell.jpg",
+        image: "./assets/Games/newLumberVille.png",
         googleplay:
             "https://play.google.com/store/apps/details?id=com.MonsterScope.LumberVille",
         ios: "",
@@ -108,7 +109,7 @@ export const clients = [
     {
         id: "client-1",
         name: "Axios Games",
-        image: "./assets/Logos/Axios-logo-grande - Edited.png",
+        image: "./assets/Logos/newAxios.jpg",
     },
     {
         id: "client-4",
@@ -130,57 +131,62 @@ export const clients = [
         name: "QuickByte",
         image: "./assets/Logos/quickbyte-logo.png",
     },
-    // {
-    //     id: "client-6",
-    //     name: "ClientNAME-6",
-    //     image: "#",
-    // },
+    {
+        id: "client-6",
+        name: "ClientNAME-6",
+        image: "./assets/Logos/games-station-new.png",
+    },
+    {
+        id: "client-7",
+        name: "ClientNAME-7",
+        image: "./assets/Logos/EtermaxLogo-new.png",
+    },
 ];
 
 export const teamMembers = [
     {
         id: "member-1",
-        name: "ANTONIO",
+        name: "ANTONIO MARTINEZ",
         photo: anton,
-        description: "CPO & Lead Game Designer (Co-Founder).",
+        description: "CEO, CPO & Lead Game Designer (Co-Founder).",
         experience: '7+ Years Mobile Games Experience.',
-        gamesExp: '15 Shipped Games.',
+        gamesExp: '4 Mobile Games Shipped & +15 Hyper-casual Projects.',
     },
     {
         id: "member-2",
-        name: "ZAMFIR",
+        name: "RODRIGO GOMEZ",
+        photo: rodri,
+        description: "CTO & Lead Developer (Co-Founder).",
+        experience: '7+ Years Mobile Games Experience.',
+        gamesExp: '7 Mobile Games Shipped.',
+    },
+    {
+        id: "member-3",
+        name: "ZAMFIR DUMITRU",
         photo: zamfir,
-        description: "CEO, CFO & Project Owner (Co-Founder)",
+        description: "CFO & Product Owner (Co-Founder)",
         experience: '10+ Years Experience developing F2P Mobile Games.',
         gamesExp: '4 Mobile Games Shipped.',
     },
     {
-        id: "member-3",
-        name: "RODRIGO",
-        photo: rodri,
-        description: "CTO & Lead Developer (Co-Founder).",
-        experience: '7+ Years Mobile Games Experience.',
-        gamesExp: '9 Mobile Games Shipped.',
-    },
-    {
         id: "member-4",
-        name: "MARCOS",
+        name: "MARCOS BANDEO",
         photo: Marcos,
         description: "Senior Developer & Technical Artist.",
         experience: '4+ Years Mobile Games Experience.',
-        gamesExp: '8 Mobile Games Shipped.',
+        gamesExp: '3 Mobile Games Shipped.',
     },
-    {
-        id: "member-5",
-        name: "SHANTI",
-        photo: shanti,
-        description: "Art Director, w/Game Desing & Art Degree.",
-        experience: '6+ Years Mobile Games Experience.',
-        gamesExp: 'Winner of Woman In Games Victoria.',
-    },
+    // {
+    //     id: "member-5",
+    //     name: "SHANTI",
+    //     photo: shanti,
+    //     description: "Art Director, w/Game Desing & Art Degree.",
+    //     experience: '6+ Years Mobile Games Experience.',
+    //     gamesExp: 'Winner of Woman In Games Victoria.',
+    // },
     {
         id: "member-6",
-        name: "DAVID",
+        name: "DAVID DUNKLING",
         photo: David,
         description: "Sr Game Designer, Developer & UI.",
         experience: '6+ Years Mobile Games Experience.',
@@ -188,7 +194,7 @@ export const teamMembers = [
     },
     {
         id: "member-7",
-        name: "TOMAS",
+        name: "TOMAS MILETO",
         photo: tomis,
         description: "Developer.",
         experience: '2+ Years Experience.',
@@ -196,11 +202,19 @@ export const teamMembers = [
     },
     {
         id: "member-8",
-        name: "JOAQUIN",
+        name: "JOAQUIN ITALIANO",
         photo: Joako,
         description: "3D Artist.",
         experience: '2+ Years Experience.',
         gamesExp: '5 HC Mobile Games Shipped.',
+    },
+    {
+        id: "member-9",
+        name: "JOSEFINA GROSLAT",
+        photo: Jose,
+        description: "Art Director.",
+        experience: '6+ Years Mobile Games Experience.',
+        gamesExp: 'Ex Etermax & Game Station.',
     },
 ];
 

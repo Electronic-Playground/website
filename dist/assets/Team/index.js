@@ -6,6 +6,7 @@ import zamfir from "./zamfir.png";
 import David from "./David.png";
 import Joako from "./Joako.png";
 import Marcos from "./Marcos.png";
+import Jose from "./Jose.png";
 
 
 export {
@@ -17,4 +18,5 @@ export {
     David,
     Joako,
     Marcos,
+    Jose
 }
