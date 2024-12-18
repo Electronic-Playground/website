@@ -1,10 +1,7 @@
 import {
     anton,
     rodri,
-    shanti,
     tomis,
-    zamfir,
-    David,
     Joako,
     Marcos,
     Jose,
@@ -48,17 +45,6 @@ export const games = [
         googleplay:
             "https://play.google.com/store/apps/details?id=com.MonsterScope.LumberVille",
         ios: "",
-    },
-    {
-        id: "game-3",
-        title: "Dawnblade",
-        description:
-            "A modern hack ‘n’ slash, dungeon crawler action RPG.",
-        logo: "./assets/Icons/dawnblade.png",
-        image: "./assets/Games/dawnblade2.jpg",
-        googleplay:
-            "https://play.google.com/store/apps/details?id=com.MonsterScope.Dawnblade&hl=en&gl=US",
-        ios: "https://apps.apple.com/ca/app/dawnblade/id1625067975",
     },
     {
         id: "game-4",
@@ -161,36 +147,12 @@ export const teamMembers = [
         gamesExp: '7 Mobile Games Shipped.',
     },
     {
-        id: "member-3",
-        name: "ZAMFIR DUMITRU",
-        photo: zamfir,
-        description: "CFO & Product Owner (Co-Founder)",
-        experience: '10+ Years Experience developing F2P Mobile Games.',
-        gamesExp: '4 Mobile Games Shipped.',
-    },
-    {
         id: "member-4",
         name: "MARCOS BANDEO",
         photo: Marcos,
         description: "Senior Developer & Technical Artist.",
         experience: '4+ Years Mobile Games Experience.',
         gamesExp: '3 Mobile Games Shipped.',
-    },
-    // {
-    //     id: "member-5",
-    //     name: "SHANTI",
-    //     photo: shanti,
-    //     description: "Art Director, w/Game Desing & Art Degree.",
-    //     experience: '6+ Years Mobile Games Experience.',
-    //     gamesExp: 'Winner of Woman In Games Victoria.',
-    // },
-    {
-        id: "member-6",
-        name: "DAVID DUNKLING",
-        photo: David,
-        description: "Sr Game Designer, Developer & UI.",
-        experience: '6+ Years Mobile Games Experience.',
-        gamesExp: 'Multi Graduate in Game Design & Programming.',
     },
     {
         id: "member-7",
